@@ -18,6 +18,7 @@ Tools for transforming data into OMOP CDM:
 - [Rabbit-in-a-Blender](https://github.com/RADar-AZDelta/Rabbit-in-a-Blender) - Full ETL tool
 - [Carrot](https://github.com/Health-Informatics-UoN/carrot-mapper) - Toolset for ETL
 - [Data2Evidence](https://github.com/OHDSI/Data2Evidence) - End to end ETL tool
+- [OMOP on FHIR](https://github.com/omoponfhir) - FHIR built on top of OMOP
 
 #### Profiling
 
@@ -33,6 +34,8 @@ Tools for transforming data into OMOP CDM:
 - [Bouzyges](https://github.com/OHDSI/Bouzyges) - Semantic mapping with LLM
 - [kotobuki](https://github.com/thehyve/kotobuki) - Update outdated mappings in Usagi
 - [OMOCL](https://github.com/SevKohler/OMOCL) - Declarative mapping language for openEHR to OMOP
+- [Genomics England Mappings](https://gitlab.com/genomicsengland/genomics_england_publications/public-omop-mappings) - NHS datasets mapping
+- [DICOM2OMOP](https://github.com/paulnagy/DICOM2OMOP) - DICOM mapping to OMOP
 
 #### Transformation
 
@@ -41,12 +44,14 @@ Tools for transforming data into OMOP CDM:
 - [convert-pheno](https://github.com/CNAG-Biomedical-Informatics/convert-pheno) - Conversion of datamodels for phenotypic data
 - [oxford-omop-data-mapper](https://github.com/answerdigital/oxford-omop-data-mapper) - Transformation of NHS datasets
 - [i2o-transform](https://github.com/i2b2-omop/i2o-transform) - PCORnet to OMOP
+- [fhir-omop-ig](https://github.com/HL7/fhir-omop-ig) - FHIR implementation
 
 #### Validation
 
 - [DataQualityDashboard](https://github.com/OHDSI/DataQualityDashboard) - Data quality assessment reports
 - [ACHILLES](https://github.com/OHDSI/Achilles) - Data quality assessment and characterization
 - [Data-Quality-Analysis](https://github.com/PEDSnet/Data-Quality-Analysis) - Data assessment tool
+- [CdmInspection](https://github.com/EHDEN/CdmInspection) - R Quality control
 
 #### ETL Pipelines
 
@@ -79,6 +84,7 @@ Tools for analyzing and visualizing OMOP data:
 
 AI/ML tools built for OMOP data:
 
+- [omop-learn](https://github.com/clinicalml/omop-learn) - Python ML with OMOP
 - [Lettuce](https://github.com/Health-Informatics-UoN/lettuce/) - LLM for matching drug names to OMOP concepts
 - [PatientLevelPrediction](https://github.com/OHDSI/PatientLevelPrediction) - Patient-level prediction models
 - [DeepPatientLevelPrediction](https://github.com/OHDSI/DeepPatientLevelPrediction) - Deep learning for patient-level prediction
@@ -91,6 +97,7 @@ AI/ML tools built for OMOP data:
 Developer tools and infrastructure components:
 
 - [omop-lite](https://github.com/Health-Informatics-UoN/omop-lite) - OMOP CDM database creator
+- [CDMConnector](https://github.com/darwin-eu/CDMConnector) - Tidyverse connector
 - [DatabaseConnector](https://github.com/OHDSI/DatabaseConnector) - Database connection management
 - [SqlRender](https://github.com/OHDSI/SqlRender) - SQL translation and rendering
 - [FeatureExtraction](https://github.com/OHDSI/FeatureExtraction) - Feature extraction from OMOP data
@@ -98,6 +105,7 @@ Developer tools and infrastructure components:
 - [omock](https://github.com/OHDSI/omock) - Generate mock OMOP CDM data
 - [OHDSIonAzure](https://github.com/microsoft/OHDSIonAzure) - Deploy OHDSI on Azure
 - [sqlalchemy_omopcdm](https://github.com/edencehealth/sqlalchemy_omopcdm) - SQLAlchemy models for OMOP CDM
+- [omop-cdm](https://github.com/databricks-industry-solutions/omop-cdm) - Databricks 5.3 CDM
 - [dzd-omop-cdm-python-models](https://github.com/DZD-eV-Diabetes-Research/dzd-omop-cdm-python-models) - Python data class lib for OMOP CDM
 - [OMOPCommonDataModel.jl](https://github.com/JuliaHealth/OMOPCommonDataModel.jl) - Julia implementation of the OMOP CDM
 
