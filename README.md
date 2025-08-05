@@ -6,7 +6,6 @@
 
 The OMOP Common Data Model (CDM) is a standardized data model for observational healthcare data. It enables large-scale analytics across different healthcare systems and data sources. This list focuses on open source tools that work with OMOP CDM.
 
-
 ## Categories
 
 - [Common Data Model](https://github.com/OHDSI/CommonDataModel) - The CDM itself
@@ -30,14 +29,17 @@ Tools for transforming data into OMOP CDM:
 - [ATLAS](https://github.com/OHDSI/Atlas) - Web-based application for cohort definition and analysis
 - [Broadsea](https://github.com/OHDSI/Broadsea) - Deploys the core OHDSI stack
 - [OMOP2OBO](https://github.com/callahantiff/OMOP2OBO) - Mapping to Open Biomedical Ontologies
-
+- [Bouzyges](https://github.com/OHDSI/Bouzyges) - Semantic mapping with LLM
+- [kotobuki](https://github.com/thehyve/kotobuki) - Update outdated mappings in Usagi
+- [OMOCL](https://github.com/SevKohler/OMOCL) - Declarative mapping language for openEHR to OMOP
 
 #### Transformation
 
 - [ETL-Synthea](https://github.com/OHDSI/ETL-Synthea) - ETL for Synthea synthetic data
 - [Carrot Transform](https://github.com/Health-Informatics-UoN/carrot-transform) - Data transform to CDM
 - [convert-pheno](https://github.com/CNAG-Biomedical-Informatics/convert-pheno) - Conversion of datamodels for phenotypic data
-
+- [oxford-omop-data-mapper](https://github.com/answerdigital/oxford-omop-data-mapper) - Transformation of NHS datasets
+- [i2o-transform](https://github.com/i2b2-omop/i2o-transform) - PCORnet to OMOP
 
 #### Validation
 
@@ -51,8 +53,8 @@ Tools for transforming data into OMOP CDM:
 - [Janssen CDM](https://ohdsi.github.io/ETL-LambdaBuilder/) - ETL inc. CPRD
 - [MIMIC-OMOP](https://github.com/MIT-LCP/mimic-omop) MIMI-III ETL
 - [Eos](https://github.com/SevKohler/Eos) - openEHR ETL
-
-
+- [IMI_SOPHIA_DMS_OMOP](https://github.com/MaastrichtU-BISS/IMI_SOPHIA_DMS_OMOP) - Maastricht ETL
+- [ETL-Synthea](https://github.com/OHDSI/ETL-Synthea) - Synthea to OMOP ETL
 
 ### 📊 Analytics & Research
 
@@ -69,6 +71,8 @@ Tools for analyzing and visualizing OMOP data:
 - [CohortMethod](https://github.com/OHDSI/CohortMethod) - Population-level effect estimation
 - [Cohort360](https://docs.cohort360.org) - Cohort builder / visualiser
 - [eds-scikit](https://github.com/aphp/eds-scikit) - Python lib for analysing OMOP
+- [LinkR](https://github.com/BorisDelange/LinkR) - Web app for vis / analysing OMOP
+- [recruit](https://github.com/miracum/recruit) - Clinical trial recruitment system with FHIR + OMOP
 
 ### 🤖 Machine Learning & AI
 
@@ -78,6 +82,8 @@ AI/ML tools built for OMOP data:
 - [PatientLevelPrediction](https://github.com/OHDSI/PatientLevelPrediction) - Patient-level prediction models
 - [DeepPatientLevelPrediction](https://github.com/OHDSI/DeepPatientLevelPrediction) - Deep learning for patient-level prediction
 - [CohortMethod](https://github.com/OHDSI/CohortMethod) - Population-level effect estimation
+- [omcp](https://github.com/fastomop/omcp) - MCP server for OMOP
+- [onto-llm-mapping](https://github.com/cns-iu/onto-llm-mapping) - Ontology mapping with LLM + RAG
 
 ### 🛠️ Development & Infrastructure
 
@@ -89,7 +95,10 @@ Developer tools and infrastructure components:
 - [FeatureExtraction](https://github.com/OHDSI/FeatureExtraction) - Feature extraction from OMOP data
 - [omopcept](https://github.com/SAFEHR-data/omopcept) - R package for getting OMOP concepts
 - [omock](https://github.com/OHDSI/omock) - Generate mock OMOP CDM data
-
+- [OHDSIonAzure](https://github.com/microsoft/OHDSIonAzure) - Deploy OHDSI on Azure
+- [sqlalchemy_omopcdm](https://github.com/edencehealth/sqlalchemy_omopcdm) - SQLAlchemy models for OMOP CDM
+- [dzd-omop-cdm-python-models](https://github.com/DZD-eV-Diabetes-Research/dzd-omop-cdm-python-models) - Python data class lib for OMOP CDM
+- [OMOPCommonDataModel.jl](https://github.com/JuliaHealth/OMOPCommonDataModel.jl) - Julia implementation of the OMOP CDM
 
 ### Vocabs
 
@@ -116,6 +125,7 @@ If you have suggestions, corrections, or want to add tools I've missed, please:
 - [OMOP CDM Documentation](https://ohdsi.org/web/wiki/doku.php?id=documentation:software:data_quality)
 - [OHDSI Forums](https://forums.ohdsi.org/)
 - [OHDSI Book](https://ohdsi.github.io/TheBookOfOhdsi/)
+- [OHDSI Book 2nd Edition](https://github.com/OHDSI/BookOfOhdsi-2ndEdition)
 
 ## License
 
