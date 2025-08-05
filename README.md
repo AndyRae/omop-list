@@ -103,7 +103,7 @@ Developer tools and infrastructure components:
 ### Vocabs
 
 - [Vocabulary-v5.0](https://github.com/OHDSI/Vocabulary-v5.0) - Build/releases of vocabularies
-- [Athena](https://github.com/OHDSI/Athena) - Web application for distributing and browsing the Standardized Vocabularies for all instances of an OMOP CDM
+- [Athena](https://github.com/OHDSI/Athena) - Web application for distributing vocabularies
 
 ### Datasets
 
