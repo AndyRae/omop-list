@@ -5,6 +5,7 @@
 ## What is OMOP?
 
 The OMOP Common Data Model (CDM) is a standardized data model for observational healthcare data. It enables large-scale analytics across different healthcare systems and data sources. This list focuses on open source tools that work with OMOP CDM.
+It's not everything - the [OHDSI organisation](https://github.com/OHDSI) has over 350 repositories, so this is the interesting ones + the wider community.
 
 ## Categories
 
@@ -113,20 +114,17 @@ Developer tools and infrastructure components:
 - [Barts Health](https://data.bartshealth.nhs.uk/Our-Data/) - 10k synthetic CDM
 - [Synthea](https://aws.amazon.com/marketplace/pp/prodview-wpgqdtdudfl62) - 1k, 100k, 2.8m
 
-## Contributing
-
-If you have suggestions, corrections, or want to add tools I've missed, please:
-
-1. Open an issue to discuss
-2. Submit a pull request with additions
-
 ## Resources
 
 - [OHDSI Website](https://ohdsi.org/)
-- [OMOP CDM Documentation](https://ohdsi.org/web/wiki/doku.php?id=documentation:software:data_quality)
+- [OMOP CDM Documentation](https://ohdsi.github.io/CommonDataModel/cdm54.html)
 - [OHDSI Forums](https://forums.ohdsi.org/)
 - [OHDSI Book](https://ohdsi.github.io/TheBookOfOhdsi/)
 - [OHDSI Book 2nd Edition](https://github.com/OHDSI/BookOfOhdsi-2ndEdition)
+
+## Contributing
+
+See [contributing.md](/CONTRIBUTING.md)
 
 ## License
 
