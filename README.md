@@ -61,6 +61,7 @@ Tools for transforming data into OMOP CDM:
 - [Eos](https://github.com/SevKohler/Eos) - openEHR ETL
 - [IMI_SOPHIA_DMS_OMOP](https://github.com/MaastrichtU-BISS/IMI_SOPHIA_DMS_OMOP) - Maastricht ETL
 - [ETL-Synthea](https://github.com/OHDSI/ETL-Synthea) - Synthea to OMOP ETL
+- [FinnGen/ETL](https://github.com/FINNGEN/ETL) - FinnGen ETL
 
 ### 📊 Analytics & Research
 
@@ -99,6 +100,7 @@ Developer tools and infrastructure components:
 - [omop-lite](https://github.com/Health-Informatics-UoN/omop-lite) - OMOP CDM database creator
 - [CDMConnector](https://github.com/darwin-eu/CDMConnector) - Tidyverse connector
 - [DatabaseConnector](https://github.com/OHDSI/DatabaseConnector) - Database connection management
+- [dsOMOP](https://github.com/isglobal-brge/dsOMOP) - OMOP support for DataSHIELD
 - [SqlRender](https://github.com/OHDSI/SqlRender) - SQL translation and rendering
 - [FeatureExtraction](https://github.com/OHDSI/FeatureExtraction) - Feature extraction from OMOP data
 - [omopcept](https://github.com/SAFEHR-data/omopcept) - R package for getting OMOP concepts
