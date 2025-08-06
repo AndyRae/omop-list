@@ -136,6 +136,10 @@ Developer tools and infrastructure components:
 
 See [contributing.md](/CONTRIBUTING.md)
 
+<a href="https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=andyrae/omop-list">
+  <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces">
+</a>
+
 ## License
 
 This list is open source and available under the [MIT License](LICENSE).
