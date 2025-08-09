@@ -80,6 +80,8 @@ Tools for analyzing and visualizing OMOP data:
 - [eds-scikit](https://github.com/aphp/eds-scikit) - Python lib for analysing OMOP
 - [LinkR](https://github.com/BorisDelange/LinkR) - Web app for vis / analysing OMOP
 - [recruit](https://github.com/miracum/recruit) - Clinical trial recruitment system with FHIR + OMOP
+- [Strategus](https://github.com/OHDSI/Strategus) - Coordinating / executing analytics
+- [CohortConstructor](https://github.com/OHDSI/CohortConstructor/) - Create study cohorts
 
 ### 🤖 Machine Learning & AI
 
@@ -115,6 +117,7 @@ Developer tools and infrastructure components:
 
 - [Vocabulary-v5.0](https://github.com/OHDSI/Vocabulary-v5.0) - Build/releases of vocabularies
 - [Athena](https://github.com/OHDSI/Athena) - Web application for distributing vocabularies
+- [CVB](https://github.com/TuftsCTSI/CVB) - Custom vocabulary builder
 
 ### Datasets
 
