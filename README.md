@@ -126,6 +126,7 @@ Developer tools and infrastructure components:
 - [UK-OMOP](https://github.com/HDRUK/UK-OMOP) - Directory of UK OMOP data sets
 - [Barts Health](https://data.bartshealth.nhs.uk/Our-Data/) - 10k synthetic CDM
 - [Synthea](https://aws.amazon.com/marketplace/pp/prodview-wpgqdtdudfl62) - 1k, 100k, 2.8m
+- [MIMIC-IV](https://physionet.org/content/mimic-iv-demo-omop/0.9/) 100 patients
 
 ## Resources
 
