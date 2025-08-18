@@ -112,6 +112,7 @@ Developer tools and infrastructure components:
 - [omop-cdm](https://github.com/databricks-industry-solutions/omop-cdm) - Databricks 5.3 CDM
 - [dzd-omop-cdm-python-models](https://github.com/DZD-eV-Diabetes-Research/dzd-omop-cdm-python-models) - Python data class lib for OMOP CDM
 - [OMOPCommonDataModel.jl](https://github.com/JuliaHealth/OMOPCommonDataModel.jl) - Julia implementation of the OMOP CDM
+- [pyomop](https://github.com/dermatologist/pyomop) - Useful OMOP "swiss army knife" in Python
 
 ### Vocabs
 
