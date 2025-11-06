@@ -32,6 +32,8 @@ Tools for transforming data into OMOP CDM:
 - [Broadsea](https://github.com/OHDSI/Broadsea) - Deploys the core OHDSI stack
 - [OMOP2OBO](https://github.com/callahantiff/OMOP2OBO) - Mapping to Open Biomedical Ontologies
 - [Bouzyges](https://github.com/OHDSI/Bouzyges) - Semantic mapping with LLM
+- [ODmapper](https://github.com/biierwint/ODmapper) - API to map a genomic variant to the OMOP concept_id
+- [ODharmonizer](https://github.com/biierwint/ODharmonizer) - Suite of tools to harmonize omics data to OMOP.
 - [kotobuki](https://github.com/thehyve/kotobuki) - Update outdated mappings in Usagi
 - [OMOCL](https://github.com/SevKohler/OMOCL) - Declarative mapping language for openEHR to OMOP
 - [Genomics England Mappings](https://gitlab.com/genomicsengland/genomics_england_publications/public-omop-mappings) - NHS datasets mapping
@@ -54,6 +56,7 @@ Tools for transforming data into OMOP CDM:
 - [ACHILLES](https://github.com/OHDSI/Achilles) - Data quality assessment and characterization
 - [Data-Quality-Analysis](https://github.com/PEDSnet/Data-Quality-Analysis) - Data assessment tool
 - [CdmInspection](https://github.com/EHDEN/CdmInspection) - R Quality control
+- 
 
 #### ETL Pipelines
 
@@ -95,6 +98,7 @@ AI/ML tools built for OMOP data:
 - [DeepPatientLevelPrediction](https://github.com/OHDSI/DeepPatientLevelPrediction) - Deep learning for patient-level prediction
 - [CohortMethod](https://github.com/OHDSI/CohortMethod) - Population-level effect estimation
 - [omcp](https://github.com/fastomop/omcp) - MCP server for OMOP
+- [omop_mcp](https://github.com/OHNLP/omop_mcp) - MCP server for OMOP
 - [onto-llm-mapping](https://github.com/cns-iu/onto-llm-mapping) - Ontology mapping with LLM + RAG
 
 ### 🛠️ Development & Infrastructure
