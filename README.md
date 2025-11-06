@@ -136,6 +136,7 @@ Developer tools and infrastructure components:
 - [OHDSI Forums](https://forums.ohdsi.org/)
 - [OHDSI Book](https://ohdsi.github.io/TheBookOfOhdsi/)
 - [OHDSI Book 2nd Edition](https://github.com/OHDSI/BookOfOhdsi-2ndEdition)
+- [Tidy R programming with the OMOP Common Data Model](https://github.com/OHDSI/Tidy-R-programming-with-OMOP)
 
 ## Contributing
 
