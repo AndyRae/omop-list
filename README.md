@@ -36,6 +36,8 @@ Tools for transforming data into OMOP CDM:
 - [OMOCL](https://github.com/SevKohler/OMOCL) - Declarative mapping language for openEHR to OMOP
 - [Genomics England Mappings](https://gitlab.com/genomicsengland/genomics_england_publications/public-omop-mappings) - NHS datasets mapping
 - [DICOM2OMOP](https://github.com/paulnagy/DICOM2OMOP) - DICOM mapping to OMOP
+- [ROMOPMappingTools](https://github.com/FinOMOP/ROMOPMappingTools) - Functions to validate, update, and summarise Usagi mapping files
+- [FinOMOP_mappings](https://github.com/FinOMOP/FinOMOP_mappings) - Mapping of Finnish medical vocabularies
 
 #### Transformation
 
