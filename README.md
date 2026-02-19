@@ -53,6 +53,7 @@ Tools for transforming data into OMOP CDM:
 #### Validation
 
 - [DataQualityDashboard](https://github.com/OHDSI/DataQualityDashboard) - Data quality assessment reports
+- [dqd-container](https://github.com/AndyRae/dqd-image) - DQD in a Nightly Container
 - [ACHILLES](https://github.com/OHDSI/Achilles) - Data quality assessment and characterization
 - [Data-Quality-Analysis](https://github.com/PEDSnet/Data-Quality-Analysis) - Data assessment tool
 - [CdmInspection](https://github.com/EHDEN/CdmInspection) - R Quality control
