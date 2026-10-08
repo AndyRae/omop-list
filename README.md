@@ -95,6 +95,7 @@ Tools for analyzing and visualizing OMOP data:
 - [eds-scikit](https://github.com/aphp/eds-scikit) - Python lib for analysing OMOP
 - [LinkR](https://github.com/BorisDelange/LinkR) - Web app for vis / analysing OMOP
 - [recruit](https://github.com/miracum/recruit) - Clinical trial recruitment system with FHIR + OMOP
+- [SIDHA](https://github.com/developer-rpai/sidha) - Open data architecture for hidradenitis suppurativa research: EHR ingestion, computable phenotypes, diagnostic-delay analytics on OMOP CDM + FHIR R4
 - [Strategus](https://github.com/OHDSI/Strategus) - Coordinating / executing analytics
 - [CohortConstructor](https://github.com/OHDSI/CohortConstructor/) - Create study cohorts
 - [Picard](https://github.com/OHDSI/Picard) - RWE pipelining tool favouring OHDSI tools
