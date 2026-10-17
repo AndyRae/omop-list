@@ -42,6 +42,7 @@ Tools for transforming data into OMOP CDM:
 - [ROMOPMappingTools](https://github.com/FinOMOP/ROMOPMappingTools) - Functions to validate, update, and summarise Usagi mapping files
 - [FinOMOP_mappings](https://github.com/FinOMOP/FinOMOP_mappings) - Mapping of Finnish medical vocabularies
 - [ready42](https://github.com/Centre-for-AI-Innovation/ready42) - Tools for data curation and mapping into OMOP CDM
+- [Ariadne](https://github.com/OHDSI/Ariadne) - Python toolkit for mapping source terminologies to standard concepts
 
 
 #### Transformation
@@ -49,7 +50,7 @@ Tools for transforming data into OMOP CDM:
 - [ETL-Synthea](https://github.com/OHDSI/ETL-Synthea) - ETL for Synthea synthetic data
 - [Carrot Transform](https://github.com/Health-Informatics-UoN/carrot-transform) - Data transform to CDM
 - [convert-pheno](https://github.com/CNAG-Biomedical-Informatics/convert-pheno) - Conversion of datamodels for phenotypic data
-- [oxford-omop-data-mapper](https://github.com/answerdigital/oxford-omop-data-mapper) - Transformation of NHS datasets
+- [oxford-omop-data-mapper](https://github.com/tvs-sde/oxford-omop-data-mapper) - Transformation of NHS datasets
 - [i2o-transform](https://github.com/i2b2-omop/i2o-transform) - PCORnet to OMOP
 - [fhir-omop-ig](https://github.com/HL7/fhir-omop-ig) - FHIR implementation
 - [MEDS](https://github.com/Medical-Event-Data-Standard/meds) - Schema for medical event streams, used for EHR foundation models
@@ -57,6 +58,8 @@ Tools for transforming data into OMOP CDM:
 - [OMOP_MEDS](https://github.com/rvandewater/OMOP_MEDS) - OMOP to MEDS using MEDS-Transforms
 - [omop2meds](https://github.com/na399/omop2meds) - Fast OMOP to MEDS conversion in DuckDB
 - [EHR2Trace](https://github.com/Yangxinyee/ehr2trace) - Converts EHR exports to OMOP CDM 5.4 and MEDS from one canonical layer, with row-level lineage and output validation
+- [dbt-synthea](https://github.com/OHDSI/dbt-synthea) - dbt project to convert Synthea synthetic data to OMOP CDM
+- [fhir2omop](https://github.com/lampadephoros/fhir2omop) - FHIR R4 to OMOP CDM v5.4 mapping spec and ELT runtime
 
 
 #### Validation
@@ -66,6 +69,7 @@ Tools for transforming data into OMOP CDM:
 - [ACHILLES](https://github.com/OHDSI/Achilles) - Data quality assessment and characterization
 - [Data-Quality-Analysis](https://github.com/PEDSnet/Data-Quality-Analysis) - Data assessment tool
 - [CdmInspection](https://github.com/EHDEN/CdmInspection) - R Quality control
+- [fastssv](https://github.com/fastomop/fastssv) - Static semantic validator for OMOP CDM SQL
 
 #### ETL Pipelines
 
@@ -77,6 +81,7 @@ Tools for transforming data into OMOP CDM:
 - [ETL-Synthea](https://github.com/OHDSI/ETL-Synthea) - Synthea to OMOP ETL
 - [FinnGen/ETL](https://github.com/FINNGEN/ETL) - FinnGen ETL
 - [mimic-iv-dbt](https://github.com/saywurdson/mimic-iv-dbt) - MIMIC-IV to CDM 5.4 with DuckDB and dbt
+- [dbt_mimic_omop](https://github.com/CogStack/dbt_mimic_omop) - MIMIC-IV and MIMIC-IV-Note to OMOP CDM with dbt
 
 ### 📊 Analytics & Research
 
@@ -100,6 +105,16 @@ Tools for analyzing and visualizing OMOP data:
 - [CohortConstructor](https://github.com/OHDSI/CohortConstructor/) - Create study cohorts
 - [Picard](https://github.com/OHDSI/Picard) - RWE pipelining tool favouring OHDSI tools
 - [OPAL](https://github.com/DorianGrousset/OPAL) - Data quality, cohort building, and concept exploration platform
+- [ehrapy](https://github.com/theislab/ehrapy) - Python EHR analysis, with OMOP support through [ehrdata](https://github.com/theislab/ehrdata)
+- [All of Us Researcher Workbench](https://github.com/all-of-us/workbench) - Research platform for the All of Us OMOP dataset
+- [IncidencePrevalence](https://github.com/darwin-eu/IncidencePrevalence) - Estimate incidence and prevalence
+- [CodelistGenerator](https://github.com/darwin-eu/CodelistGenerator) - Find relevant concepts in the OMOP vocabularies
+- [PatientProfiles](https://github.com/darwin-eu/PatientProfiles) - Add patient-level characteristics to OMOP tables
+- [DrugUtilisation](https://github.com/darwin-eu/DrugUtilisation) - Drug utilisation studies
+- [CohortCharacteristics](https://github.com/darwin-eu/CohortCharacteristics) - Summarise and compare cohort characteristics
+- [visOmopResults](https://github.com/darwin-eu/visOmopResults) - Tables and plots for OMOP study results
+- [PSDL](https://github.com/Chesterguan/PSDL) - Portable language for clinical scenario and cohort definitions
+- [omopy](https://github.com/fastomop/omopy) - Python reimplementation of the DARWIN EU R packages
 
 ### 🤖 Machine Learning & AI
 
@@ -116,6 +131,8 @@ AI/ML tools built for OMOP data:
 - [Pythia](https://github.com/OHDSI/Pythia) - AI cohort-design advisor for ATLAS 3.0
 - [StudyAgent](https://github.com/OHDSI/StudyAgent) - Agentic study execution
 - [trex](https://github.com/OHDSI/trex) - Supabase-compatible backend with an embedded analytical engine and agent runtime
+- [FEMR](https://github.com/som-shahlab/femr) - Framework for EHR foundation models (CLMBR, MOTOR) on OMOP data
+- [EDS-NLP](https://github.com/aphp/edsnlp) - Clinical NLP framework from AP-HP
 
 
 ### 🛠️ Development & Infrastructure
@@ -140,6 +157,9 @@ Developer tools and infrastructure components:
 - [Circepy](https://github.com/OHDSI/circepy) - Python implementation of CIRCE-BE
 - [GIS](https://github.com/OHDSI/GIS) - Geospatial and exposome data in the CDM
 - [gaiaDB](https://github.com/OHDSI/gaiaDB) - Staging database and transformation recipes for place-based datasets
+- [omop-alchemy](https://github.com/AustralianCancerDataNetwork/omop-alchemy) - SQLAlchemy models for OMOP CDM
+- [promop](https://github.com/healthkey-ai/promop) - Django models for OMOP CDM and the oncology extension
+- [DuckCDM](https://github.com/vitaldb/duckcdm) - DuckDB OMOP engine with SqlRender, Circe, Achilles and an ATLAS 3.0-compatible WebAPI in pure Python
 
 
 ### Vocabs
@@ -147,6 +167,9 @@ Developer tools and infrastructure components:
 - [Vocabulary-v5.0](https://github.com/OHDSI/Vocabulary-v5.0) - Build/releases of vocabularies
 - [Athena](https://github.com/OHDSI/Athena) - Web application for distributing vocabularies
 - [CVB](https://github.com/TuftsCTSI/CVB) - Custom vocabulary builder
+- [omophub-python](https://github.com/OMOPHub/omophub-python) - Python SDK for the OMOPHub vocabulary API
+- [omophub-R](https://github.com/OMOPHub/omophub-R) - R SDK for the OMOPHub vocabulary API
+- [omophub-mcp](https://github.com/OMOPHub/omophub-mcp) - MCP server for OMOP vocabularies
 
 ### Datasets
 
@@ -156,6 +179,7 @@ Developer tools and infrastructure components:
 - [Barts Health](https://data.bartshealth.nhs.uk/Our-Data/) - 10k synthetic CDM
 - [Synthea](https://aws.amazon.com/marketplace/pp/prodview-wpgqdtdudfl62) - 1k, 100k, 2.8m
 - [MIMIC-IV](https://physionet.org/content/mimic-iv-demo-omop/0.9/) 100 patients
+- [EHRSHOT](https://github.com/som-shahlab/ehrshot-benchmark) - Benchmark for EHR foundation models, with data in OMOP format
 
 ## Resources
 
