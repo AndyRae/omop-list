@@ -7,6 +7,16 @@
 The OMOP Common Data Model (CDM) is a standardized data model for observational healthcare data. It enables large-scale analytics across different healthcare systems and data sources. This list focuses on open source tools that work with OMOP CDM.
 It's not everything - the [OHDSI organisation](https://github.com/OHDSI) has over 350 repositories, so this is the interesting ones + the wider community.
 
+## Contents
+
+- [ETL & Data Processing](#️-etl--data-processing)
+- [Analytics & Research](#-analytics--research)
+- [Machine Learning & AI](#-machine-learning--ai)
+- [Development & Infrastructure](#️-development--infrastructure)
+- [Vocabs](#vocabs)
+- [Datasets](#datasets)
+- [Resources](#resources)
+
 ## Categories
 
 - [Common Data Model](https://github.com/OHDSI/CommonDataModel) - The CDM itself
@@ -28,9 +38,6 @@ Tools for transforming data into OMOP CDM:
 
 - [Usagi](https://github.com/OHDSI/Usagi) - Vocabulary mapping tool
 - [Carrot Mapper](https://github.com/Health-Informatics-UoN/carrot-mapper) - Community mapping tool
-- [ATLAS](https://github.com/OHDSI/Atlas) - Web-based application for cohort definition and analysis
-- [Atlas3](https://github.com/OHDSI/Atlas3) - Updated reimplementation of OHDSI ATLAS for cohort definition and analysis
-- [Broadsea](https://github.com/OHDSI/Broadsea) - Deploys the core OHDSI stack
 - [OMOP2OBO](https://github.com/callahantiff/OMOP2OBO) - Mapping to Open Biomedical Ontologies
 - [Bouzyges](https://github.com/OHDSI/Bouzyges) - Semantic mapping with LLM
 - [ODmapper](https://github.com/biierwint/ODmapper) - API to map a genomic variant to the OMOP concept_id
@@ -71,7 +78,7 @@ Tools for transforming data into OMOP CDM:
 
 - [BlendedICU](https://github.com/USM-CHU-FGuyon/BlendedICU) - ETL for ICU data
 - [Janssen CDM](https://ohdsi.github.io/ETL-LambdaBuilder/) - ETL inc. CPRD
-- [MIMIC-OMOP](https://github.com/MIT-LCP/mimic-omop) MIMI-III ETL
+- [MIMIC-OMOP](https://github.com/MIT-LCP/mimic-omop) - MIMIC-III ETL
 - [Eos](https://github.com/SevKohler/Eos) - openEHR ETL
 - [IMI_SOPHIA_DMS_OMOP](https://github.com/MaastrichtU-BISS/IMI_SOPHIA_DMS_OMOP) - Maastricht ETL
 - [ETL-Synthea](https://github.com/OHDSI/ETL-Synthea) - Synthea to OMOP ETL
@@ -86,10 +93,13 @@ Tools for analyzing and visualizing OMOP data:
 - [HADES](https://github.com/OHDSI/Hades) - Large scale analytics packages
 - [Bunny](https://bunny.health) - Cohort discovery tool
 - [ATLAS Data Sources](https://github.com/OHDSI/WebAPI) - REST API for OMOP data access
+- [ATLAS](https://github.com/OHDSI/Atlas) - Web-based application for cohort definition and analysis
+- [Atlas3](https://github.com/OHDSI/Atlas3) - Updated reimplementation of OHDSI ATLAS for cohort definition and analysis
 - [CohortDiagnostics](https://github.com/OHDSI/CohortDiagnostics) - Cohort characterization and diagnostics
 - [CohortGenerator](https://github.com/OHDSI/CohortGenerator) - Cohort definition and generation
+- [PhenEx](https://github.com/Bayer-Group/PhenEx) - Python framework for phenotype and cohort extraction, with built-in OMOP support
 - [Characterization](https://github.com/OHDSI/Characterization) - Patient and cohort characterization
-- [Cylcops](https://github.com/OHDSI/Cyclops) - Large scale regularized regressions
+- [Cyclops](https://github.com/OHDSI/Cyclops) - Large scale regularized regressions
 - [CohortMethod](https://github.com/OHDSI/CohortMethod) - Population-level effect estimation
 - [Cohort360](https://docs.cohort360.org) - Cohort builder / visualiser
 - [eds-scikit](https://github.com/aphp/eds-scikit) - Python lib for analysing OMOP
@@ -112,6 +122,7 @@ AI/ML tools built for OMOP data:
 - [CohortMethod](https://github.com/OHDSI/CohortMethod) - Population-level effect estimation
 - [omcp](https://github.com/fastomop/omcp) - MCP server for OMOP
 - [omop_mcp](https://github.com/OHNLP/omop_mcp) - MCP server for OMOP
+- [ascent-epi-demo](https://github.com/Bayer-Group/ascent-epi-demo) - MCP agent demo for natural-language epidemiology and cohort generation on OMOP (Ascent)
 - [onto-llm-mapping](https://github.com/cns-iu/onto-llm-mapping) - Ontology mapping with LLM + RAG
 - [Pythia](https://github.com/OHDSI/Pythia) - AI cohort-design advisor for ATLAS 3.0
 - [StudyAgent](https://github.com/OHDSI/StudyAgent) - Agentic study execution
@@ -131,6 +142,7 @@ Developer tools and infrastructure components:
 - [omopcept](https://github.com/SAFEHR-data/omopcept) - R package for getting OMOP concepts
 - [omock](https://github.com/OHDSI/omock) - Generate mock OMOP CDM data
 - [OHDSIonAzure](https://github.com/microsoft/OHDSIonAzure) - Deploy OHDSI on Azure
+- [Broadsea](https://github.com/OHDSI/Broadsea) - Deploys the core OHDSI stack
 - [sqlalchemy_omopcdm](https://github.com/edencehealth/sqlalchemy_omopcdm) - SQLAlchemy models for OMOP CDM
 - [omop-cdm](https://github.com/databricks-industry-solutions/omop-cdm) - Databricks 5.3 CDM
 - [dzd-omop-cdm-python-models](https://github.com/DZD-eV-Diabetes-Research/dzd-omop-cdm-python-models) - Python data class lib for OMOP CDM
@@ -146,12 +158,13 @@ Developer tools and infrastructure components:
 
 - [Vocabulary-v5.0](https://github.com/OHDSI/Vocabulary-v5.0) - Build/releases of vocabularies
 - [Athena](https://github.com/OHDSI/Athena) - Web application for distributing vocabularies
+- [Hecate](https://github.com/OHDSI/Hecate) - Semantic search engine for OHDSI vocabularies
 - [CVB](https://github.com/TuftsCTSI/CVB) - Custom vocabulary builder
 
 ### Datasets
 
 - [Eunomia](https://github.com/OHDSI/Eunomia) - Package to access sample datasets
-- [EonomiaDatasets](https://github.com/ohdsi/EunomiaDatasets) - Sample CDM
+- [EunomiaDatasets](https://github.com/ohdsi/EunomiaDatasets) - Sample CDM
 - [UK-OMOP](https://github.com/HDRUK/UK-OMOP) - Directory of UK OMOP data sets
 - [Barts Health](https://data.bartshealth.nhs.uk/Our-Data/) - 10k synthetic CDM
 - [Synthea](https://aws.amazon.com/marketplace/pp/prodview-wpgqdtdudfl62) - 1k, 100k, 2.8m
@@ -170,9 +183,9 @@ Developer tools and infrastructure components:
 
 ## Contributing
 
-See [contributing.md](/CONTRIBUTING.md)
+Know a tool that should be here? [Suggest it](https://github.com/AndyRae/awesome-omop/issues/new?template=suggest-a-tool.yml) or open a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-<a href="https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=andyrae/omop-list">
+<a href="https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=andyrae/awesome-omop">
   <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces">
 </a>
 

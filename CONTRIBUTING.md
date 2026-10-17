@@ -41,12 +41,10 @@ Please place tools in the most appropriate category:
 
 ### Submission Process
 
-1. **Open an Issue First** (Recommended)
-   - Describe the tool you want to add
-   - Explain why it should be included
-   - Provide the GitHub repository link
+1. **Suggest a tool** (easiest)
+   - Fill in the [Suggest a tool](https://github.com/AndyRae/awesome-omop/issues/new?template=suggest-a-tool.yml) form. Only the link is required.
 
-2. **Submit a Pull Request**
+2. **Or submit a Pull Request**
    - Follow the existing markdown format exactly
    - Use a clear, descriptive commit message
 
