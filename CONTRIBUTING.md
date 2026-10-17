@@ -48,7 +48,6 @@ Please place tools in the most appropriate category:
 
 2. **Submit a Pull Request**
    - Follow the existing markdown format exactly
-   - Maintain alphabetical order within each category
    - Use a clear, descriptive commit message
 
 ## Quality Standards

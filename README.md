@@ -66,7 +66,6 @@ Tools for transforming data into OMOP CDM:
 - [ACHILLES](https://github.com/OHDSI/Achilles) - Data quality assessment and characterization
 - [Data-Quality-Analysis](https://github.com/PEDSnet/Data-Quality-Analysis) - Data assessment tool
 - [CdmInspection](https://github.com/EHDEN/CdmInspection) - R Quality control
-- 
 
 #### ETL Pipelines
 
