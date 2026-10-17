@@ -1,0 +1,35 @@
+name: Check links
+
+on:
+  pull_request:
+    paths: ["README.md"]
+  schedule:
+    - cron: "0 6 * * 1" # Mondays
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-retries 3 --accept 200,429 README.md
+          # Fail PRs; on the schedule, open an issue instead.
+          fail: ${{ github.event_name == 'pull_request' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open issue for broken links
+        if: github.event_name != 'pull_request' && steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: Broken links
+          content-filepath: ./lychee/out.md
