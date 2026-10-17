@@ -56,6 +56,7 @@ Tools for transforming data into OMOP CDM:
 - [meds_etl](https://github.com/Medical-Event-Data-Standard/meds_etl) - ETLs to MEDS, including OMOP v5
 - [OMOP_MEDS](https://github.com/rvandewater/OMOP_MEDS) - OMOP to MEDS using MEDS-Transforms
 - [omop2meds](https://github.com/na399/omop2meds) - Fast OMOP to MEDS conversion in DuckDB
+- [EHR2Trace](https://github.com/Yangxinyee/ehr2trace) - Converts EHR exports to OMOP CDM 5.4 and MEDS from one canonical layer, with row-level lineage and output validation
 
 
 #### Validation
