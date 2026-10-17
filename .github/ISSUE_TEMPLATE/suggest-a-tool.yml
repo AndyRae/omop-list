@@ -1,0 +1,36 @@
+name: Suggest a tool
+description: Suggest an OMOP tool or resource for the list. No pull request needed.
+title: "Suggest: "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Repository, docs site, or data portal.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: One-line description
+      placeholder: What does it do?
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: A best guess is fine.
+      options:
+        - Not sure
+        - ETL & Data Processing
+        - Analytics & Research
+        - Machine Learning & AI
+        - Development & Infrastructure
+        - Vocabs
+        - Datasets
+        - Resources
+    validations:
+      required: false

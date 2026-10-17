@@ -1,0 +1,27 @@
+name: Find new OMOP tools
+
+on:
+  schedule:
+    - cron: "0 7 1 * *" # 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Search GitHub
+        run: .github/scripts/find-candidates.sh README.md > candidates.md
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open issue
+        run: |
+          gh issue create --title "New OMOP tools: $(date -u '+%B %Y')" --body-file candidates.md
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
