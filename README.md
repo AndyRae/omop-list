@@ -1,4 +1,4 @@
-# OMOP Tools List 🏥
+# Awesome OMOP 🏥
 
 > A curated list of open source OMOP (Observational Medical Outcomes Partnership) tools and resources.
 

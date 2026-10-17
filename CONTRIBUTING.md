@@ -1,6 +1,6 @@
-# Contributing to OMOP Tools List 🏥
+# Contributing to Awesome OMOP 🏥
 
-Thank you for your interest in contributing to the OMOP Tools List! This document provides guidelines for contributing to this curated list of open source OMOP (Observational Medical Outcomes Partnership) tools and resources.
+Thank you for your interest in contributing to Awesome OMOP! This document provides guidelines for contributing to this curated list of open source OMOP (Observational Medical Outcomes Partnership) tools and resources.
 
 ## What We're Looking For
 
